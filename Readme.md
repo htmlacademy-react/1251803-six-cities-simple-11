@@ -1,6 +1,6 @@
 # Личный проект «Шесть городов (простой)»
 
-* Студент: [Евгений Лазарев](https://up.htmlacademy.ru/react/11/user/1251803).
+* Студент: [Евгений Лазарев](https://htmlacademy.ru/profile/lazarev).
 * Наставник: [Олег Глущенко](https://htmlacademy.ru/profile/id305355).
 
 ---
