@@ -1,4 +1,4 @@
-function LoginScreen(): JSX.Element {
+function OfferScreen(): JSX.Element {
   return (
     <>
       <header className="header">
@@ -419,4 +419,4 @@ function LoginScreen(): JSX.Element {
   );
 }
 
-export default LoginScreen;
+export default OfferScreen;
