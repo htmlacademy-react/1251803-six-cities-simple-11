@@ -1,18 +1,18 @@
 import PlaceCard from '../../components/place-card/place-card';
 
-const getPlaceCards = (count: number): JSX.Element[] => {
-  const content = [];
-  for (let i = 0; i < count; i++) {
-    content.push(<PlaceCard />);
-  }
-  return content;
-};
-
 type MainPageProps = {
   placeCardsCount: number;
 }
 
 function MainPage({placeCardsCount}: MainPageProps): JSX.Element {
+  const getPlaceCards = (count: number): JSX.Element[] => {
+    const content = [];
+    for (let i = 0; i < count; i++) {
+      content.push(<PlaceCard />);
+    }
+    return content;
+  };
+
   return (
     <>
       <header className="header">
